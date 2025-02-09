@@ -1,5 +1,5 @@
 import axios from 'axios'
-export const serverURL='http://10.0.2.2:5000'
+export const serverURL='http://127.0.0.1:5000'
 export const postData=async(url, body)=>{
 try{
 var response=await axios.post(`${serverURL}/${url}`, body)   
